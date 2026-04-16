@@ -6,7 +6,7 @@ range([start], stop, [step])
 # step의 기본값 1
 # 범위를 생성할때 stop값은 포함되지 않음
 
-"""
+
 
 #range(10)
 #r1 = range(10)
@@ -25,6 +25,18 @@ range([start], stop, [step])
 
 #range를 이용한 list 생성
 
+자바스크립트는 만들어줘야함
+function range(n) {
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        arr.push(i);
+    }
+    return arr;
+}
+
+console.log(range(5)); // [0,1,2,3,4]
+
+"""
 list1 = list(range(10))
 print(list1)
 

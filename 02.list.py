@@ -13,6 +13,9 @@ score03=90
 score30=89
 •리스트의 값은 변경가능(mutable)
 
+자바스크립트에는 “list”라는 타입이 없고, 대신 Array(배열)씀
+파이썬의 list랑 가장 비슷한 게 바로 이 Array
+
 
 scores = [30, 50, 90, 89, 56, 87 ]
 score0 = scores[0]
@@ -54,9 +57,9 @@ print('bts의 멤버는 {}명입니다.'.format(len(bts)))
 """
 #list분할
 
-numbers = [0, 10, 20, 30, 40, 50 ,60, 70, 80, 90, 10]
-number1 = numbers[0:4]
-print(number1)
+numbers = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 10]
+numbers1 = numbers[0:4]
+print(numbers1)
 print(numbers[:4])
 print(numbers[7:11])
 print(numbers[7:])
