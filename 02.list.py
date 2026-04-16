@@ -33,7 +33,7 @@ scores.insert(1, 33)
 scores.insert(2, 'World')
 print(scores)
 
-"""
+
 
 list1 = [1, 2, 3, 4, 5]
 list2 = [5, 6, 7, 8, 9]
@@ -41,3 +41,23 @@ print(list1 + list2)
 print(list2 + list1)
 print(list1 *3 )
 print(list2 *3 )
+
+
+#list의 길이는 len함수를 사용해서 조회
+scores = [30, 50, 90, 89, 56, 87, 45]
+length = len(scores)
+print('scores의 길이는 {}입니다'.format(length))
+
+bts = ["진", "슈가", "제이홉", "RM", "지민", "뷔", "정국"]
+print('bts의 멤버는 {}명입니다.'.format(len(bts)))
+
+"""
+#list분할
+
+numbers = [0, 10, 20, 30, 40, 50 ,60, 70, 80, 90, 10]
+number1 = numbers[0:4]
+print(number1)
+print(numbers[:4])
+print(numbers[7:11])
+print(numbers[7:])
+print(numbers[:])
